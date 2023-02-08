@@ -1,0 +1,26 @@
+@Metadata.layer: #CORE
+annotate view ZC_ALP_TRAVEL_NP
+    with 
+{
+    @UI.lineItem: [{ position: 10 }]
+    TravelID;
+    @UI.lineItem: [{ position: 20 }]
+    AgencyID;
+    @UI.lineItem: [{ position: 30 }]
+    CustomerID;
+    @UI.lineItem: [{ position: 40 }]
+    BeginDate;
+    @UI.lineItem: [{ position: 50 }]
+    EndDate;
+    @UI.lineItem: [{ position: 60 }]
+    BookingFee;
+    @UI.lineItem: [{ position: 70 }]
+    TotalPrice;
+    @UI.lineItem: [{ position: 80 }]
+    CurrencyCode;
+    @UI.lineItem: [{ position: 90 }]
+    Description;
+    @UI.lineItem: [{ position: 100 }]
+    TravelStatus;
+    
+}

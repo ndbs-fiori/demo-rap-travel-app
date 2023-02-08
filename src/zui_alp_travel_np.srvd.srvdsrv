@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZUI_ALP_TRAVEL_NP'
+define service ZUI_ALP_TRAVEL_NP {
+  expose ZC_ALP_TRAVEL_NP;
+}
